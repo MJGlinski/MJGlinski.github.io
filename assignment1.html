@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Assignment1
+    </title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+        }
+        
+        
+
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+
+        }
+
+        .header {
+            position: absolute;
+            top: 450px;
+            right:  -300px;
+            width: 100%;
+            color: black;
+        }
+
+        .Menu {
+            position: absolute;
+            top: 38px;
+            right: 16px;
+            color: black;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <video id="MyVideo" muted loop autoplay>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+        <div class="header">
+            <h1> My HomePage</h1>
+        </div>
+
+        <div class="Menu">
+            <ul>
+                <li>Email</li>
+                <li>Hobbies</li>
+                <li>Resume</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
